@@ -1,181 +1,206 @@
-AI Resume ATS Analyzer 🚀
-An end-to-end AI-powered Resume Analysis Platform that helps candidates optimize their resumes for Applicant Tracking Systems (ATS), improve job matching, generate interview questions, create personalized cover letters, and track performance insights over time.
+# AI Resume ATS Analyzer 🚀
 
-📌 Overview
-AI Resume ATS Analyzer is a Streamlit-based application that leverages Large Language Models (LLMs), Natural Language Processing (NLP), SQLite, and Data Visualization techniques to provide intelligent resume analysis and career enhancement recommendations.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Groq](https://img.shields.io/badge/Groq-LLM-green)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-The system allows users to upload a resume and job description, receive ATS compatibility feedback, generate improved resumes, create tailored cover letters, prepare for interviews, and monitor historical ATS performance through an interactive analytics dashboard.
+An end-to-end AI-powered Resume Analysis Platform that helps candidates optimize resumes for Applicant Tracking Systems (ATS), improve job matching, generate interview questions, create tailored cover letters, and track ATS performance over time.
 
-✨ Key Features
-📄 Resume Parsing
-Upload Resume PDFs
+---
 
-Extract and process resume content
+## 📌 Overview
 
-Analyze candidate skills and experience
+AI Resume ATS Analyzer is a Streamlit-based application that combines Large Language Models (LLMs), NLP, SQLite, and interactive analytics to provide intelligent resume evaluation and career enhancement recommendations.
 
-🎯 ATS Resume Analysis
-ATS compatibility scoring
+The platform allows users to:
 
-Skill match percentage calculation
+- Upload Resume PDFs
+- Upload or Paste Job Descriptions
+- Analyze ATS Compatibility
+- Generate Improved Resumes
+- Create Tailored Cover Letters
+- Generate Interview Questions
+- Build Personalized Learning Roadmaps
+- Track ATS Performance History
+- Visualize Insights Through Interactive Dashboards
 
-Missing keyword identification
+---
 
-Resume improvement suggestions
+# ✨ Features
 
-✍️ AI Resume Rewriter
-Enhances resume content using AI
+## 📄 Resume Parsing
 
-Improves ATS compatibility
+- PDF Resume Upload
+- Resume Text Extraction
+- Skill & Experience Processing
 
-Generates a downloadable PDF version
+## 🎯 ATS Analysis
 
-🎤 Interview Question Generator
-Generates role-specific interview questions
+- ATS Compatibility Score
+- Skill Match Percentage
+- Missing Keyword Detection
+- Resume Improvement Suggestions
 
-Uses resume and job description context
+## ✍️ Resume Rewriter
 
-Technical and behavioral question generation
+- AI-Powered Resume Enhancement
+- ATS-Friendly Content Optimization
+- Downloadable Improved Resume PDF
 
-🗺️ Improvement Roadmap
-Personalized skill development roadmap
+## 🎤 Interview Question Generator
 
-Gap analysis against job requirements
+- Technical Questions
+- Behavioral Questions
+- Role-Specific Preparation
 
-Learning recommendations
+## 🗺️ Improvement Roadmap
 
-📨 Cover Letter Generator
-AI-generated tailored cover letters
+- Skill Gap Analysis
+- Learning Recommendations
+- Personalized Career Growth Plan
 
-Customized according to resume and job description
+## 📨 Cover Letter Generator
 
-📊 ATS Insights Dashboard
-Historical ATS score tracking
+- AI-Generated Cover Letters
+- Resume + JD Based Personalization
 
-Resume performance analytics
+## 📊 ATS Insights Dashboard
 
-ATS trend visualization
+- ATS Score Trends
+- Historical Analysis Tracking
+- Match Percentage Comparison
+- Performance Prediction
+- Interactive Visualizations
 
-Match percentage comparison
+## 💾 Database Integration
 
-Performance prediction using Machine Learning
+- SQLite Storage
+- ATS History Tracking
+- Candidate Progress Monitoring
 
-💾 Database Integration
-Stores historical ATS analysis records
+## 🧪 Automated Testing
 
-Tracks candidate improvement over time
+- Pytest Unit Tests
+- ATS Validation
+- Service Testing
 
-Enables dashboard analytics
+---
 
-🧪 Unit Testing
-Automated testing with Pytest
+# 🎥 Demo
 
-ATS functionality validation
+## Application Walkthrough
 
-Candidate matching verification
+https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656
 
-🎥 Demo Videos
-Application Walkthrough
+### Demonstrates
 
-(https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656)
+- Resume Upload
+- JD Upload
+- ATS Analysis
+- Resume Rewrite
+- Interview Questions
+- Roadmap Generation
+- Cover Letter Generation
 
-Demonstrates:
+---
 
-Resume Upload
-
-Job Description Upload
-
-ATS Analysis
-
-Resume Rewrite
-
-Interview Questions
-
-Improvement Roadmap
-
-Cover Letter Generation
-
-Insights Dashboard Demo
+## Insights Dashboard Demo
 
 https://github.com/user-attachments/assets/af2560d4-d933-4e6a-be5c-2557e07378a4
-Demonstrates:
 
-ATS History Tracking
+### Demonstrates
 
-Score Trends
+- ATS History Tracking
+- ATS Trends
+- Match Percentage Analytics
+- Dashboard Metrics
+- Performance Prediction
 
-Match Percentage Analytics
+---
 
-Dashboard Metrics
+# 🖼️ Sample Generated Resume
 
-Prediction Insights
+![Improved Resume](screenshots/improved_resume.png)
 
-Improved Resume Generated by AI
-<img width="617" height="657" alt="image" src="https://github.com/user-attachments/assets/a61dddd8-d975-4d40-ac51-1c9d0b7cf822" />
-<img width="565" height="678" alt="image" src="https://github.com/user-attachments/assets/b026b33d-bd74-4ecf-af1c-101fe02267cc" />
+---
 
-🏗️ System Architecture
+# 🏗️ System Architecture
+
+```text
 Resume PDF
-     │
-     ▼
+    │
+    ▼
 Resume Parser
-     │
-     ▼
-AI Analysis Engine
-     │
- ┌───┼─────────────┬───────────┬───────────┐
- ▼   ▼             ▼           ▼           ▼
-ATS  Rewrite   Interview   Roadmap   Cover Letter
-     │
-     ▼
+    │
+    ▼
+AI Analysis Engine (Groq LLM)
+    │
+ ┌──┬────────┬─────────┬─────────┐
+ ▼  ▼        ▼         ▼         ▼
+
+ATS Rewrite Interview Roadmap Cover Letter
+
+    │
+    ▼
 SQLite Database
-     │
-     ▼
-Analytics Dashboard
+    │
+    ▼
+Insights Dashboard
+```
 
-🛠️ Tech Stack
-Frontend
-Streamlit
+---
 
-HTML/CSS
+# 🛠️ Tech Stack
 
-Plotly
+## Frontend
 
-Backend
-Python
+- Streamlit
+- HTML/CSS
+- Plotly
 
-AI & NLP
-Groq API
+## Backend
 
-Llama Models
+- Python
 
-Sentence Transformers
+## AI & NLP
 
-FAISS
+- Groq API
+- Llama Models
 
-Data Processing
-Pandas
+## Database
 
-NumPy
+- SQLite
 
-Regular Expressions
+## Machine Learning
 
-Database
-SQLite
+- Scikit-Learn
 
-Machine Learning
-Scikit-Learn
+## Data Processing
 
-Visualization
-Plotly Express
+- Pandas
+- NumPy
+- Regular Expressions
 
-Testing
-Pytest
+## Visualization
 
-PDF Processing
-PyPDF2
+- Plotly Express
 
-📂 Project Structure
+## PDF Processing
+
+- PyPDF2
+- FPDF2
+
+## Testing
+
+- Pytest
+
+---
+
+# 📂 Project Structure
+
+```text
 AI-Resume-ATS-Analyzer/
 │
 ├── app.py
@@ -185,7 +210,8 @@ AI-Resume-ATS-Analyzer/
 │   ├── interview_service.py
 │   ├── roadmap_service.py
 │   ├── cover_letter_service.py
-│   └── resume_rewriter_service.py
+│   ├── resume_rewriter_service.py
+│   └── llm_client.py
 │
 ├── parser/
 │   ├── resume_parser.py
@@ -195,8 +221,7 @@ AI-Resume-ATS-Analyzer/
 │   └── db.py
 │
 ├── services/
-│   ├── dashboard_service.py
-│   └── matching_service.py
+│   └── dashboard_service.py
 │
 ├── reports/
 │   └── pdf_generator.py
@@ -206,135 +231,134 @@ AI-Resume-ATS-Analyzer/
 │   └── test_matching.py
 │
 ├── screenshots/
-│   ├── ats_analysis.png
 │   ├── dashboard.png
 │   └── improved_resume.png
 │
-├── demo/
-│   ├── app_demo.mp4
-│   └── dashboard_demo.mp4
-│
 ├── requirements.txt
-│
-├── .env
-│
-└── README.md
+├── README.md
+└── .gitignore
+```
 
-🗄️ Database Schema
-CREATE TABLE CANDIDATE_ANALYSIS
-(
+---
+
+# 🗄️ Database Schema
+
+```sql
+CREATE TABLE CANDIDATE_ANALYSIS (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
-
     NAME VARCHAR(100),
-
     ATS_SCORE INTEGER,
-
     MATCH_PERCENTAGE INTEGER,
-
     ANALYSIS_DATE TIMESTAMP
 );
+```
 
-🧪 Unit Testing
-ATS Analysis Test
- from ai.ats_service import *
+---
 
- def test_ats_report():
+# ⚙️ Installation
 
-    resume = "Python Developer"
+## 1. Clone Repository
 
-    jd = "Python Flask Developer"
+```bash
+git clone https://github.com/rohitganguly80/ai_resume_ATS-_analyzer.git
+```
 
-    result = generate_ats_report(
-        resume,
-        jd
-    )
+## 2. Move Into Project
 
-    assert result is not None
+```bash
+cd ai_resume_ATS-_analyzer
+```
 
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/your-username/AI-Resume-ATS-Analyzer.git
-2. Move Into Project
-cd AI-Resume-ATS-Analyzer
-3. Create Virtual Environment
-Windows
+## 3. Create Virtual Environment
+
+### Windows
+
+```bash
 python -m venv venv
 venv\Scripts\activate
-Linux / Mac
+```
+
+### Linux / Mac
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-4. Install Dependencies
-pip install -r requirements.txt
-5. Configure Environment Variables
-Create a .env file
+```
 
+## 4. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 5. Configure Environment Variables
+
+Create a `.env` file:
+
+```env
 GROQ_API_KEY=YOUR_GROQ_API_KEY
-6. Run Application
+```
+
+## 6. Run Application
+
+```bash
 streamlit run app.py
-📦 Requirements
-streamlit
-groq
-PyPDF2
-faiss-cpu
-sentence-transformers
-scikit-learn
-plotly
-pandas
-numpy
-fpdf2
-python-dotenv
+```
+
+---
+
+# 🧪 Running Tests
+
+```bash
 pytest
-📈 Dashboard Analytics
+```
+
+---
+
+# 📈 Dashboard Analytics
+
 The ATS Insights Dashboard provides:
 
-Total Analyses Performed
+- Total Analyses
+- Average ATS Score
+- Average Match Percentage
+- Best ATS Score
+- Predicted Future ATS Score
+- ATS Trend Analysis
+- Match Comparison
+- Historical Records
 
-Average ATS Score
+---
 
-Average Match Percentage
+# 🔮 Future Enhancements
 
-Best ATS Score Achieved
+- Multi Resume Comparison
+- OCR Support
+- Recruiter Dashboard
+- Resume Ranking System
+- LinkedIn Profile Analysis
+- Job Recommendation Engine
+- Cloud Deployment
+- User Authentication
 
-Predicted Future ATS Score
+---
 
-ATS Score Trend Analysis
+# 👨‍💻 Author
 
-Resume Match Comparison
+**Rohit Ganguly**
 
-ATS vs Match Correlation
+B.Tech Computer Science & Engineering
 
-Historical Analysis Records
+Interests:
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Full Stack Development
 
-🔮 Future Enhancements
-Multi-Resume Comparison
+GitHub: https://github.com/rohitganguly80
 
-OCR Support for Scanned PDFs
+---
 
-Recruiter Dashboard
+# 📄 License
 
-Resume Keyword Heatmap
-
-Resume Ranking System
-
-LinkedIn Profile Analysis
-
-Job Recommendation Engine
-
-Cloud Deployment
-
-Authentication & User Profiles
-
-👨‍💻 Author
-Rohit Ganguly
-
-B.Tech CSE Student
-
-AI • Machine Learning • Full Stack Development • Data Science
-
-📄 License
 This project is licensed under the MIT License.
-
-
-
-
-
