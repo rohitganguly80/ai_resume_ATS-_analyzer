@@ -122,7 +122,8 @@ https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656
 
 # 🖼️ Sample Generated Resume
 
-![Improved Resume](screenshots/improved_resume.png)
+<img width="587" height="655" alt="image" src="https://github.com/user-attachments/assets/f160745b-4ea7-4678-87b3-0b314e53be19" />
+<img width="555" height="689" alt="image" src="https://github.com/user-attachments/assets/a54d044a-d026-4c49-9909-b7d920597b8b" />
 
 ---
 
