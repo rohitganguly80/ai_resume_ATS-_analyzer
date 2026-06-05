@@ -92,7 +92,7 @@ The platform allows users to:
 
 ## Application Walkthrough
 
-https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656
+https://github.com/user-attachments/assets/af2560d4-d933-4e6a-be5c-2557e07378a4
 
 ### Demonstrates
 
@@ -108,7 +108,7 @@ https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656
 
 ## Insights Dashboard Demo
 
-https://github.com/user-attachments/assets/af2560d4-d933-4e6a-be5c-2557e07378a4
+https://github.com/user-attachments/assets/5125d07e-a1dd-4d0a-9f27-af8c87e95656
 
 ### Demonstrates
 
